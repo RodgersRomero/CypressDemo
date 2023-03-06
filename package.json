@@ -4,16 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:clean": "rm cypress/results/* || true; rm cache.txt || true; rm testrail-cache.txt || true",
+    "cy:run:staging": "npm run cy:clean; npx cypress run --spec \"cypress/e2e/**/*/\" | tee cache.txt"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.3.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-testrail-reporter": "^1.3.4"
   },
   "cypress-cucumber-preprocessor": {
-    "step_definitions": "cypress/BDD/ecommerce/eCommStepDef.js",
-    "nonGlobalStepDefinitions": true
+    "step_definitions": "cypress/BDD/Login/LoginStepDef.js",
+    "nonGlobalStepDefinitions": true,
+    "chromeWebSecurity": false
+    
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.6.2"
   }
 }

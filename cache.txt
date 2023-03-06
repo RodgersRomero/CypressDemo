@@ -1,0 +1,569 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        10.3.0                                                                         │
+  │ Browser:        Electron 100 (headless)                                                        │
+  │ Node Version:   v16.14.0 (/Users/helloiconic/.nvm/versions/node/v16.14.0/bin/node)             │
+  │ Specs:          9 found (admins.cy.js, brands.cy.js, categories.cy.js, fastcash.cy.js, header. │
+  │                 cy.js, leagues.cy.js, login.cy.js, signup.cy.js, teams.cy.js)                  │
+  │ Searched:       cypress/e2e/**/*                                                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  admins.cy.js                                                                    (1 of 9)
+
+
+ (TestRail Reporter)
+
+  - Following suiteId has been set in cypress.json file: 1021 
+
+
+ (TestRail Reporter)
+
+  - Creating TestRail Run with name: Regression testing Jan 17th 2023, 09:35 (-06:00) 
+
+
+  Admins page test cases
+    ✓ C37995 - Admins page - UI (5644ms)
+    ✓ C37996 - Delete an admin - HP
+    ✓ C37997 - Add a new admin - HP
+
+  Add admin page test cases
+    ✓ C38029 - Add admin page - UI
+    ✓ C38031 - Add an unregistered email as admin - SP
+    ✓ C38032 - Save a new admin - HP
+
+  Revoke admin access modal test cases
+    ✓ C38028 - Cancel the revoke admin access modal - HP
+    ✓ C38027 - Confirm the revoke admin access modal - HP
+
+
+  8 passing (18s)
+
+
+ (TestRail Reporter)
+
+  - Results are published to https://iconic.testrail.com/index.php?/runs/view/6921 
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        8                                                                                │
+  │ Passing:      8                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     17 seconds                                                                       │
+  │ Spec Ran:     admins.cy.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  brands.cy.js                                                                    (2 of 9)
+
+
+ (TestRail Reporter)
+
+  - Using existing TestRail Run with ID: '6921' 
+
+
+  Change rate modal test cases
+    ✓ C38050 - Change brand FastCash rate - UI
+    ✓ C38051 - Close the modal by pressing the cross icon - HP
+    ✓ C38052 - Close the modal by pressing the cancel button - AP
+    ✓ C38053 - Change the default FastCash rate - HP
+    ✓ C38054 - Change the birthday FastCash rate - HP
+    ✓ C38055 - Change the FastCash rate for a temporal time - HP
+
+
+  6 passing (10s)
+
+
+ (TestRail Reporter)
+
+  - Results are published to https://iconic.testrail.com/index.php?/runs/view/6921 
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     brands.cy.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  categories.cy.js                                                                (3 of 9)
+
+
+ (TestRail Reporter)
+
+  - Using existing TestRail Run with ID: '6921' 
+
+
+  Categories page test cases
+    ✓ C38108 -	Categories page - UI
+    ✓ C38109 - Add a new category - HP
+    ✓ C38110 - Delete a category - HP
+    ✓ C38111 -	Edit a category - HP
+
+  New category page test cases
+    ✓ C38149 -	Add category page - UI
+    ✓ C38150 -	Save a new category - HP (6909ms)
+    ✓ C38151 -	Save a new category with blank input - SP
+
+  Edit category page test cases
+    ✓ C38152 -	Edit category page - UI
+    ✓ C38153 -	Save the edited category name - HP
+    ✓ C38154 -	Save the edited category with blank input - SP
+
+  Delete category modal test cases
+    ✓ C38155 -	Delete category modal - UI
+    ✓ C38156 -	Delete the selected category - HP
+    ✓ C38157 -	Close the delete category modal - SP
+
+
+  13 passing (18s)
+
+
+ (TestRail Reporter)
+
+  - Results are published to https://iconic.testrail.com/index.php?/runs/view/6921 
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        13                                                                               │
+  │ Passing:      13                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     17 seconds                                                                       │
+  │ Spec Ran:     categories.cy.js                                                                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  fastcash.cy.js                                                                  (4 of 9)
+
+
+ (TestRail Reporter)
+
+  - Using existing TestRail Run with ID: '6921' 
+
+
+  FastCash page test cases
+    ✓ C38112 -	FastCash page - UI
+    ✓ C38113 -	Search for an invalid auth0 id - SP
+    ✓ C38114 -	Search for a valid auth0 id - HP
+    ✓ C38115 -	Block the account - HP
+    ✓ C38116 -	Unblock the account - HP
+    ✓ C38117 -	Show the account logs - HP
+    ✓ C38118 -	See the user membership history - HP
+    ✓ C38119 -	Select the team of the user - HP
+    ✓ C38120 -	Check the plaid account status - HP
+    ✓ C38121 -	Fetch the plaid account transactions - HP 
+    ✓ C38122 -	Change table to filter for transactions - HP
+    ✓ C38123 -	Change table to filter for cashbacks - HP
+    ✓ C38124 -	Change table to filter for bank accounts - HP
+    ✓ C38125 -	Create a new bonus - HP
+    ✓ C38126 -	Filter transactions table by bank account - HP (6895ms)
+    ✓ C38127 -	Filter transactions for active transactions - HP
+    ✓ C38128 -	Filter transactions for archived transactions - HP
+    ✓ C38129 -	Open a transactions details - HP
+    ✓ C38130 -	Add a new cashback - HP (6923ms)
+    ✓ C38131 -	Open a cashback details - HP
+    ✓ C38132 -	Open the delete cashback modal - HP
+    ✓ C38133 -	Change a cashback state - HP
+    ✓ C38134 -	Search for the user that is owner of the bank account - HP
+    ✓ C38135 -	Change a bank account duplication state - HP
+
+  Block account modal test cases
+    ✓ C38203 -	Block account modal - UI
+    ✓ C38204 -	Close the modal by pressing the cancel button - HP
+    ✓ C38205 -	Block the account - HP
+
+  Show logs modal test cases
+    ✓ C38206 -	Show logs modal - UI
+    ✓ C38207 -	Close the modal by clicking the cross icon - HP
+    ✓ C38208 -	Close the modal by clicking the close button - HP
+
+  Delete plaid account modal test cases
+    ✓ C38221 -	Delete plaid account modal - UI
+    ✓ C38222 -	Delete the plaid account - HP
+    ✓ C38223 -	Close the modal by clicking the cancel button - HP (5612ms)
+
+  Membership history page test cases
+    ✓ C38209 -	Membership history page - UI
+    ✓ C38210 -	Expand membership information - HP
+    ✓ C38211 -	Expand the payments information - HP
+    ✓ C38212 -	Expand the bonuses information - HP
+    ✓ C38213 -	Expand the logs information - HP (7697ms)
+    ✓ C38214 -	Delete a bonus - HP
+    ✓ C38215 -	Create a bonus - HP (5611ms)
+    ✓ C38216 -	Cancel the membership status - HP
+    ✓ C38217 -	Reactivate the membership status - HP
+
+  Delete bonus modal test cases
+    ✓ C38218 -	Delete bonus modal - UI
+    ✓ C38219 -	Delete the bonus selected - HP
+    ✓ C38220 -	Close the modal by clicking the cancel button - HP (5700ms)
+
+  New bonus page test cases
+    ✓ C38224 -	New bonus page - UI
+    ✓ C38225 -	Submit a new bonus with a blank amount - SP
+    ✓ C38226 -	Submit a new bonus with a blank description - SP (7687ms)
+    ✓ C38227 -	Submit a new bonus without selecting a message - SP (7650ms)
+    ✓ C38228 -	Submit a new bonus without valid permissions - SP
+    ✓ C38229 -	Submit a new bonus - HP
+
+  Add cashback page test cases
+    ✓ C38230 -	Add cashback page - UI
+    ✓ C38231 -	Submit a cashback with a blank input - SP
+    ✓ C38232 -	Submit a new cashback - HP
+
+  Delete cashback modal test cases
+    ✓ C38233 -	Delete cashback modal - UI
+    ✓ C38234 -	Close the modal by clicking the cancel button - HP
+    ✓ C38235 -	Delete the cashback - HP (5663ms)
+
+  Change bank account duplication state modal test cases
+    ✓ C38236 -	Change bank account duplication state modal with original state - UI
+    ✓ C38237 -	Change bank account duplication state modal with duplicate state - UI
+    ✓ C38238 -	Close the modal from the cross icon - HP
+    ✓ C38239 -	Close the modal from the cancel button - AP
+    ✓ C38240 -	Save the state with the original option - HP
+    ✓ C38241 - Save the state with the duplicate option - HP
+
+
+  63 passing (2m)
+
+
+ (TestRail Reporter)
+
+  - Results are published to https://iconic.testrail.com/index.php?/runs/view/6921 
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        63                                                                               │
+  │ Passing:      63                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 minute, 37 seconds                                                             │
+  │ Spec Ran:     fastcash.cy.js                                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  header.cy.js                                                                    (5 of 9)
+
+Oops...we found an error preparing this test file:
+
+  > cypress/e2e/header.cy.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/e2e/header.cy.js
+Module not found: Error: Can't resolve '../components/header.cmp' in '/Users/helloiconic/Documents/Cypress Demo/cypress/e2e'
+Looked for and couldn't find the file at the following paths:
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.js]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.json]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.jsx]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.mjs]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.coffee]
+ @ ./cypress/e2e/header.cy.js 5:37-72
+ 
+    at handle (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/webpack-preprocessor/dist/index.js:180:23)
+    at finalCallback (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:257:39)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:304:22
+    at Compiler.emitRecords (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:499:39)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:298:10
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:482:27
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/neo-async/async.js:2818:7
+    at done (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/neo-async/async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:464:33
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:143:16
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:143:16
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (node:fs:188:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     header.cy.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  leagues.cy.js                                                                   (6 of 9)
+
+
+ (TestRail Reporter)
+
+  - Using existing TestRail Run with ID: '6921' 
+
+
+  Leagues page test cases
+    ✓ C38105 - Leagues page - UI
+    ✓ C38106 - Add a new league - HP
+    ✓ C38107 - See a league details - HP
+
+  New league page test cases
+    ✓ C38189 - New league page - UI
+    ✓ C38190 - Submit new league with a blank name - SP
+    ✓ C38191 - Submit new league with a blank short name - SP
+    ✓ C38192 - Save a new league - HP
+
+  League details page test cases
+    ✓ C38193 - Leage details page - UI
+    ✓ C38194 - Edit the selected league - HP
+    ✓ C38195 - Open a team details - HP
+
+  Edit league page test cases
+    ✓ Edit league page - UI
+    ✓ C38197 - Edit league with a blank name - SP
+    ✓ C38198 - Edit league with a blank short name - SP
+    ✓ C38199 - Edit the league - HP
+
+
+  14 passing (9s)
+
+
+ (TestRail Reporter)
+
+  - Results are published to https://iconic.testrail.com/index.php?/runs/view/6921 
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        14                                                                               │
+  │ Passing:      14                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     8 seconds                                                                        │
+  │ Spec Ran:     leagues.cy.js                                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  login.cy.js                                                                     (7 of 9)
+
+Oops...we found an error preparing this test file:
+
+  > cypress/e2e/login.cy.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/e2e/login.cy.js
+Module not found: Error: Can't resolve '../components/header.cmp' in '/Users/helloiconic/Documents/Cypress Demo/cypress/e2e'
+resolve '../components/header.cmp' in '/Users/helloiconic/Documents/Cypress Demo/cypress/e2e'
+  using description file: /Users/helloiconic/Documents/Cypress Demo/package.json (relative path: ./cypress/e2e)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /Users/helloiconic/Documents/Cypress Demo/package.json (relative path: ./cypress/components/header.cmp)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.js doesn't exist
+      .json
+        Field 'browser' doesn't contain a valid alias configuration
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.json doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.jsx doesn't exist
+      .mjs
+        Field 'browser' doesn't contain a valid alias configuration
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.mjs doesn't exist
+      .coffee
+        Field 'browser' doesn't contain a valid alias configuration
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.coffee doesn't exist
+      as directory
+        /Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp doesn't exist
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.js]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.json]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.jsx]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.mjs]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/components/header.cmp.coffee]
+ @ ./cypress/e2e/login.cy.js 7:37-72
+ 
+    at handle (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/webpack-preprocessor/dist/index.js:180:23)
+    at finalCallback (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:257:39)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:304:22
+    at Compiler.emitRecords (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:499:39)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:298:10
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:482:27
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/neo-async/async.js:2818:7
+    at done (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/neo-async/async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:464:33
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:143:16
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:143:16
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (node:fs:188:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     login.cy.js                                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  signup.cy.js                                                                    (8 of 9)
+
+Oops...we found an error preparing this test file:
+
+  > cypress/e2e/signup.cy.js
+
+The error was:
+
+Error: Webpack Compilation Error
+./cypress/e2e/signup.cy.js
+Module not found: Error: Can't resolve '../helpers/createRandomEmail' in '/Users/helloiconic/Documents/Cypress Demo/cypress/e2e'
+Looked for and couldn't find the file at the following paths:
+[/Users/helloiconic/Documents/Cypress Demo/cypress/helpers/createRandomEmail]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/helpers/createRandomEmail.js]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/helpers/createRandomEmail.json]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/helpers/createRandomEmail.jsx]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/helpers/createRandomEmail.mjs]
+[/Users/helloiconic/Documents/Cypress Demo/cypress/helpers/createRandomEmail.coffee]
+ @ ./cypress/e2e/signup.cy.js 7:48-87
+ 
+    at handle (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/webpack-preprocessor/dist/index.js:180:23)
+    at finalCallback (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:257:39)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:306:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:304:22
+    at Compiler.emitRecords (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:499:39)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:298:10
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:485:14
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:482:27
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/neo-async/async.js:2818:7
+    at done (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/neo-async/async.js:3522:9)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/tapable/lib/Hook.js:154:20)
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/node_modules/webpack/lib/Compiler.js:464:33
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:143:16
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:143:16
+    at /Users/helloiconic/Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/graceful-fs/graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (node:fs:188:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     signup.cy.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+ERR_FAILED (-2) loading 'https://cms-fastcash-staging.nexoutlets.com/__/#/specs/runner?file=cypress/e2e/signup.cy.js'
+Error: ERR_FAILED (-2) loading 'https://cms-fastcash-staging.nexoutlets.com/__/#/specs/runner?file=cypress/e2e/signup.cy.js'
+    at rejectAndCleanup (node:electron/js2c/browser_init:161:7647)
+    at EventEmitter.stopLoadingListener (node:electron/js2c/browser_init:161:8022)
+    at EventEmitter.emit (node:events:390:28)
+    at EventEmitter.emit (node:domain:475:12)
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  teams.cy.js                                                                     (9 of 9)
